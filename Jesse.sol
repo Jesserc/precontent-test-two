@@ -5,7 +5,7 @@ contract StoreRetrieveName {
     string public myName;
 
     // function to store name
-    function StoreName(string _MyName) public returns (string memory) {
+    function StoreName(string _MyName) public {
         myName = _MyName;
     }
 
